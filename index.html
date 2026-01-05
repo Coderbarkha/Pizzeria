@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pizzeria – Premium Italian Kitchen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ROTATING PIZZA BACKGROUND WITH FLOATING INGREDIENTS -->
+<!-- 3D BACKGROUND -->
+<div class="pizza-bg">
+  <img src="11475280.png" alt="Pizza">
+  <div class="ingredients">
+    <span>🍅</span>
+    <span>🧀</span>
+    <span>🍄</span>
+    <span>🌿</span>
+    <span>🍕</span>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+
+<header class="navbar">
+  <div class="nav-inner">
+    <h1 class="logo"> Pizzeria</h1>
+
+    <nav class="desktop-nav">
+      <a href="#hero">Home</a>
+      <a href="#about">Our Story</a>
+      <a href="#menu">Menu</a>
+      <a href="#specials">Specials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE SIDEBAR -->
+<aside class="mobile-sidebar" id="sidebar">
+  <div class="close-btn" id="closeBtn"><i class="fas fa-xmark"></i></div>
+  <ul>
+    <li><a href="#hero">Home</a></li>
+    <li><a href="#about">Our Story</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#specials">Specials</a></li>
+    <li><a href="#testimonials">Guests</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</aside>
+
+<!-- HERO -->
+<section class="hero glass" id="hero">
+  <span class="hero-tag">Italian Kitchen · Since 2026</span>
+  <h2>Crafted by Fire.<br>Perfected by Passion.</h2>
+  <p>
+    Wood-fired perfection, handcrafted sauces and slow-fermented dough —
+    an authentic Italian experience.
+  </p>
+  <div class="hero-actions">
+    <button class="primary-btn">Explore Menu</button>
+    <button class="secondary-btn">Our Story</button>
+  </div>
+</section>
+
+
+
+<!-- ABOUT -->
+<section class="about-premium" id="about">
+  <div class="about-wrapper glass">
+    <div class="about-text">
+      <span class="about-tag">Our Story</span>
+      <h3>Born From Fire & Flour</h3>
+      <p>
+        Every pizza is an emotion. Inspired by Italian kitchens,
+        baked in blazing heat, crafted with soul.
+      </p>
+    </div>
+    <div class="about-visual orbit">
+      <img src="11475280.png" alt="Pizza">
+    </div>
+  </div>
+</section>
+
+<!-- MENU CARDS -->
+<section class="menu" id="menu">
+  <div class="menu-card glass tilt-card">
+    <img src="mixed-pizza-with-various-ingridients.jpg">
+    <h4>Artisan Pizzas</h4>
+    <p>₹399 – ₹699</p>
+  </div>
+  <div class="menu-card glass tilt-card">
+    <img src="delicious-vegan-burger-presentation.jpg">
+    <h4>Gourmet Burgers</h4>
+    <p>₹249 – ₹499</p>
+  </div>
+  <div class="menu-card glass tilt-card">
+    <img src="delicious-cookies-with-coffee-cup.jpg">
+    <h4>Coffee & Juices</h4>
+    <p>₹149 – ₹299</p>
+  </div>
+</section>
+
+<!-- CHEF'S SPECIALS -->
+<section class="specials-section" id="specials">
+  <h3>Chef’s Specials</h3>
+  <div class="specials-grid">
+    <div class="special-card glass tilt-card">
+      <img src="world-cuisine-with-delicious-food.jpg">
+      <h4>Wood Fired Pizza</h4>
+      <p>₹499</p>
+    </div>
+    <div class="special-card glass tilt-card">
+      <img src="delicious-burgers-studio (1).jpg">
+      <h4>Classic Burger</h4>
+      <p>₹349</p>
+    </div>
+    <div class="special-card glass tilt-card">
+      <img src="front-view-cup-cappuccino-with-bear-pattern.jpg">
+      <h4>Italian Coffee</h4>
+      <p>₹199</p>
+
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="carousel-section" id="testimonials">
+  <h3>What Our Guests Say</h3>
+  <div class="swiper testimonialSwiper">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide glass testimonial-card">
+        <p>★★★★★</p>
+        <h4>“Authentic Italian vibes”</h4>
+        <span>The pizza feels straight from Naples. Soft crust, rich flavor.</span>
+        <strong>— Aarav Mehta</strong>
+      </div>
+
+      <div class="swiper-slide glass testimonial-card">
+        <p>★★★★★</p>
+        <h4>“Premium experience”</h4>
+        <span>Ambience, taste, presentation — everything screams luxury.</span>
+        <strong>— Sneha Kapoor</strong>
+      </div>
+      <div class="swiper-slide glass testimonial-card">
+  <p>★★★★★</p>
+  <h4>“A true wood-fired experience”</h4>
+  <span>
+    You can taste the freshness in every bite. The crust, the sauce, everything is perfectly balanced.
+  </span>
+  <strong>— Riya Sharma</strong>
+</div>
+<div class="swiper-slide glass testimonial-card">
+  <p>★★★★★</p>
+  <h4>“Best pizza café in town”</h4>
+  <span>
+    Their pizzas are addictive. The burgers and coffee are equally impressive.
+  </span>
+  <strong>— Neha Patel</strong>
+</div>
+
+
+      <div class="swiper-slide glass testimonial-card">
+        <p>★★★★★</p>
+        <h4>“Best café pizza”</h4>
+        <span>Burgers, coffee & pizza — all in one premium place.</span>
+        <strong>— Rohan Patel</strong>
+      </div>
+
+      <div class="swiper-slide glass testimonial-card">
+  <p>★★★★★</p>
+  <h4>“Feels like Italy on a plate”</h4>
+  <span>
+    The flavors are rich yet subtle. Every visit feels special and memorable.
+  </span>
+  <strong>— Aditya Malhotra</strong>
+</div>
+
+
+      <div class="swiper-slide glass testimonial-card">
+  <p>★★★★★</p>
+  <h4>“Where taste meets ambience”</h4>
+  <span>
+    From the lighting to the plating, everything feels premium. A perfect place for evenings.
+  </span>
+  <strong>— Kunal Verma</strong>
+</div>
+<div class="swiper-slide glass testimonial-card">
+  <p>★★★★★</p>
+  <h4>“Perfect spot for food lovers”</h4>
+  <span>
+    Amazing pizzas, calm vibes, and great service. Highly recommended.
+  </span>
+  <strong>— Ananya Singh</strong>
+</div>
+<div class="swiper-slide glass testimonial-card">
+  <p>★★★★★</p>
+  <h4>“Crafted with passion”</h4>
+  <span>
+    You can feel the passion behind every dish. Quality and taste are unmatched.
+  </span>
+  <strong>— Rohit Jain</strong>
+</div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer" id="contact">
+  <div class="footer-inner">
+
+    <h2 class="footer-logo">🍕 Pizzeria</h2>
+
+    <p class="footer-tagline">
+      Authentic Italian Kitchen • Fire Baked • Crafted with Passion
+    </p>
+
+    <div class="footer-info">
+      <span>📍 Mumbai, India</span>
+      <span>📞 +91 90000 00000</span>
+    </div>
+
+    <div class="footer-socials">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <p class="footer-copy">
+      © 2026 Pizzeria. All rights reserved.
+    </p>
+
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
